@@ -1,0 +1,25 @@
+{
+  "name": "react-obs",
+  "description": "This is simple observe extension for React",
+  "main": "gulpfile.js",
+  "authors": [
+    "iwamatsu0430"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "React",
+    "Observe"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.14.2"
+  }
+}

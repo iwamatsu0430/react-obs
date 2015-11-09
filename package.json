@@ -1,0 +1,28 @@
+{
+  "name": "react-obs",
+  "version": "1.0.0",
+  "description": "This is simple observe extension for React",
+  "main": "gulpfile.js",
+  "bin": {
+    "react-obs": "react-obs.js"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.1.2",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.0",
+    "gulp-react": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.4.2",
+    "gulp-webserver": "^0.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "Observe"
+  ],
+  "author": "iwamatsu0430",
+  "license": "MIT"
+}

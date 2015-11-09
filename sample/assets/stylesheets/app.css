@@ -1,0 +1,95 @@
+* {
+  color: #666;
+  font-size: 24px;
+}
+
+#app {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.todo-notify {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.todo-notify.show {
+  display: block;
+}
+
+.todo-notify.hide {
+  display: none;
+}
+
+.todo-notify span {
+  background: #3498db;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.todo-form {
+  text-align: center;
+}
+
+.todo-form > input {
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+}
+
+.todo-form > button {
+  cursor: pointer;
+  background: #2ecc71;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 20px;
+  margin-left: 10px;
+  transition: 0.2s background;
+}
+
+.todo-form > button:disabled {
+  background: #ecf0f1;
+  cursor: default;
+}
+
+.todo-list {
+  list-style: none;
+}
+
+.todo-list > li {
+  padding: 10px;
+}
+
+.todo-list > li + li {
+  border-top: 1px solid #ccc;
+}
+
+.todo-list a {
+  font-size: 18px;
+  color: #fff;
+  background: #e67e22;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.2s background;
+}
+
+.todo-list a:hover {
+  background: #d35400;
+}
+
+.todo-list span {
+  margin-left: 10px;
+}
