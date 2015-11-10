@@ -2,7 +2,7 @@
   "name": "react-obs",
   "version": "1.0.0",
   "description": "This is simple observe extension for React",
-  "main": "gulpfile.js",
+  "main": "bin/react-obs.js",
   "bin": {
     "react-obs": "react-obs.js"
   },
