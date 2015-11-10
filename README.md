@@ -4,6 +4,12 @@ react-obs is an extension add Observe to React.
 
 You can handle event in multi components very simply.
 
+# bower
+
+```
+bower install react-obs
+```
+
 # Example
 
 This extension can use only ES6
